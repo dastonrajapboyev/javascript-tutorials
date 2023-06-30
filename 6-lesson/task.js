@@ -43,3 +43,42 @@
 //   (yil % 4 === 0) ? console.log('kabisa yili') : console.log('kabisa yili emas')
 // }
 // kabisaYil(2020)
+
+// ================
+
+// convert "#" to "()"
+// let str =  '#Fozil#web#brain#'
+
+// for (let i = 0; i < str.length; i++) {
+//   str = str.replace('#', '(')
+//   str = str.replace('#', ')')
+// }
+
+// console.log(str);
+
+// =================
+
+// collect capital letters
+
+// function capitalLetters(str) {
+//   let newStr = "";
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] === str[i].toUpperCase()) {
+//       newStr += str[i];
+//     }
+//   }
+//   return newStr;
+// }
+// console.log(capitalLetters("WeBbraIN"));
+
+// ===================
+
+// Multiply by 10 and change the word "web" to "IT"
+
+// function multiplyWords(str){
+//   str = str.replaceAll("Web", "IT")
+//   return str
+// }
+// console.log(multiplyWords('WebBrain'));
+
+// =============================
