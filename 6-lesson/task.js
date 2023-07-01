@@ -50,8 +50,7 @@
 // let str =  '#Fozil#web#brain#'
 
 // for (let i = 0; i < str.length; i++) {
-//   str = str.replace('#', '(')
-//   str = str.replace('#', ')')
+//   str = str.replace('#', '(').replace('#', ')')
 // }
 
 // console.log(str);
@@ -76,9 +75,17 @@
 // Multiply by 10 and change the word "web" to "IT"
 
 // function multiplyWords(str){
-//   str = str.replaceAll("Web", "IT")
+//   str = str.replaceAll("Web", " IT").repeat(10).trim()
 //   return str
 // }
 // console.log(multiplyWords('WebBrain'));
 
 // =============================
+
+// finding min and max number
+
+// let num = '467812'
+
+// num = num.split('')
+// console.log('max ' + Math.max(...num), 'min ' + Math.min(...num));
+//================================
