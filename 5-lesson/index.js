@@ -81,3 +81,11 @@
 // =========================
 
 
+// undone
+// function round (son){ // !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//   if (son === Number.isInteger(son)) {
+//     son++
+//   }
+//   return son++
+// }
+// console.log(round(5.6)); // !!!!!!!!!!!!!!!!!!!!!!!!!!!

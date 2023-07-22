@@ -21,7 +21,7 @@
 // console.log(str1);
 // console.log(str2);
 
-// 2nd way using function
+// // 2nd way using function
 // function changeValue(a, b) {
 //   let c = "";
 //   c = b;
@@ -89,3 +89,13 @@
 // num = num.split('')
 // console.log('max ' + Math.max(...num), 'min ' + Math.min(...num));
 //================================
+
+// let son = "467812";
+// let max = 0;
+// let min = son[0]
+// for (let i = 0; i < son.length; i++) {
+//   if (+son[i] >= max) max = +son[i];
+//   if (+son[i] <= min) min = +son[i];
+// }
+// console.log("Maximum son: " + max);
+// console.log("Minimum son: " + min);
